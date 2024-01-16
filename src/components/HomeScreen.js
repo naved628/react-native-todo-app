@@ -66,19 +66,21 @@ const styles = StyleSheet.create({
   },
   taskName: {
     fontSize: 16,
+    fontWeight:'bold'
   },
   buttonsContainer: {
     flexDirection: 'row',
     alignItems: 'center',
   },
   icon: {
+    fontSize:24,
     marginLeft: 10,
   },
   addButton: {
     position: 'absolute',
     bottom: 20,
     right: 20,
-    backgroundColor: 'blue',
+    backgroundColor: 'gray',
     borderRadius: 50,
     padding: 10,
   },
@@ -86,6 +88,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 24,
     fontWeight: 'bold',
+    paddingHorizontal:6
   },
 });
 
